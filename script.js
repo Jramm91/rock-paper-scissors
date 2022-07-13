@@ -74,20 +74,22 @@ const finalColumn = document.querySelector('[data-final-column]');
 const computerScoreSpan = document.querySelector('[data-computer-score]');
 const yourScoreSpan = document.querySelector('[data-your-score]');
 
+var img = document.createElement('img');
+
 const SELECTIONS = [
     {
         name: 'rock',
-        emoji: '👊',
-        beats: 'scissorsrs'
+        emoji: 'Rock',
+        beats: 'scissors'
     },
     {
         name: 'paper',
-        emoji: '✋',
+        emoji: 'Paper',
         beats: 'rock'
     },
     {
         name: 'scissors',
-        emoji: '✌️',
+        emoji: 'Scissors',
         beats: 'paper'
     }
 ]
