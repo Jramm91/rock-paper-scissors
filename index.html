@@ -5,9 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock! Papper! Scissors!</title>
-    <script src="./script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
 </head>
 <body>
+    <div class = "selections">
+        <button class = "selection" data-selection="rock">👊</button>
+        <button class = "selection" data-selection="paper">✋</button>
+        <button class = "selection" data-selection="scissors">✌️</button>
+    </div>
+    <div class = "results">
+        <div>You
+            <span class = "results-score" data-your-score>0</span>
+
+        </div>
+        <div data-final-column>
+            Computer
+            <span class = "results-score" data-computer-score>0</span>
+        </div>
+        <!-- <div class="result-selection winner">👊</div> -->
+        <!-- <div class="result-selection">✌️</div> -->
+
+    </div>
     
 </body>
 </html>
