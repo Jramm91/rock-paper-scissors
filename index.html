@@ -4,30 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock! Papper! Scissors!</title>
+    <title>Rock, Paper, Scissors!</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
-    
 </head>
 <body>
-    <div class = "selections">
-        <button class = "selection" data-selection="rock"> <img src="/images/rock.png"> </button>
-        <button class = "selection" data-selection="paper"><img src="/images/paper.png"></button>
-        <button class = "selection" data-selection="scissors"><img src="/images/scissors.png"></button>
+    <h1>Let's Play Rock Paper Scissors!</h1>
+    <p class = "headtext">Please choose an option:</p>
+    <div class = "buttons">
+        <button id = "rock">Rock</button>
+        <button id = "paper">Paper</button>
+        <button id = "scissors" >Scissors</button>
     </div>
+
     <div class = "results">
-        <div>You
-            <span class = "results-score" data-your-score>0</span>
-
+        <h2>Results</h2>
+        <div class = "score">
+            <div class = "you">
+                <h3>You</h3>
+                <span>0</span>
+            </div>
+            <div class = "comp">
+                <h3>Computer</h3>
+                <span>0</span>
+            </div>
         </div>
-        <div data-final-column>
-            Computer
-            <span class = "results-score" data-computer-score>0</span>
+        <div class = "result">
         </div>
-        <!-- <div class="result-selection winner">👊</div> -->
-        <!-- <div class="result-selection">✌️</div> -->
-
+            
     </div>
-    
+
+
 </body>
 </html>
