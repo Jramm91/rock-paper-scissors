@@ -60,6 +60,14 @@ button:hover {
 #resultText {
     font-size: 1.3rem;
 }
+
+.player-won {
+    color: green;
+}
+
+.computer-won {
+    color: red;
+}
 /*
 .selection {
     background: none;
